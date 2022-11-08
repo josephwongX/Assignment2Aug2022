@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Assignment2Aug2022</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="home">Home</string>
+    <string name="home">Testing</string>
     <string name="appointment">Appointment</string>
     <string name="location">Location</string>
     <string name="more">More</string>
