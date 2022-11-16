@@ -6,5 +6,8 @@
     <string name="location">Location</string>
     <string name="more">More</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="normal_map">Normal</string>
+    <string name="hybrid_map">Hybrid</string>
+    <string name="satellite_map">Satellite</string>
+    <string name="terrain_map">Terrain</string>
 </resources>
