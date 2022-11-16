@@ -16,13 +16,10 @@ public class FourthFragment extends Fragment {
     ArrayList<String> list;
     ArrayAdapter<String> arrayAdapter;
 
-
     public FourthFragment(){
         // require a empty public constructor
     }
-    /*listView=findViewById(R.id.lV01);
-    arrayAdapter=new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1,list);
-        listView.setAdapter(arrayAdapter);*/
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_fourth,container,false);
@@ -33,7 +30,9 @@ public class FourthFragment extends Fragment {
     public void showMenuOnListView(){
         list= new ArrayList<String>();
         list.add("Profile");
+        list.add("Donor Card");
         list.add("FAQs");
+        list.add("How to use INTIansBlood ?");
         list.add("Logout");
         arrayAdapter=new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1,list);
         lv_menulist.setAdapter(arrayAdapter);
