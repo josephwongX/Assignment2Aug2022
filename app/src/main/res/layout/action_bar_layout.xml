@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTitle"
+        style="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title"
+        android:gravity="center"
+        android:text="Hello,KAI"
+        android:textColor="#FF000000"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </androidx.appcompat.widget.AppCompatTextView>
+
+
+</LinearLayout>
