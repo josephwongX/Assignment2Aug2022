@@ -7,7 +7,6 @@
     tools:context=".MainActivity">
 
 
-
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="380dp"
