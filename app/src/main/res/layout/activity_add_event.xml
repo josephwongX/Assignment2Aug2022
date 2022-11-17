@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/cherry_red"
+tools:context=".AddEventActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--edit text for food name-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idTILFoodName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/LoginTextInputLayoutStyle"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Enter Food Name"
+            android:padding="5dp"
+            android:textColorHint="@color/white"
+            app:hintTextColor="@color/white">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idEdtFoodName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="textImeMultiLine|textMultiLine"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--edit text for food price-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idTILFoodPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/LoginTextInputLayoutStyle"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Enter Food Price"
+            android:padding="5dp"
+            android:textColorHint="@color/white"
+            app:boxStrokeColor="@color/purple_200"
+            app:hintTextColor="@color/white">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idEdtFoodPrice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="phone"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp"
+                app:boxStrokeColor="@color/purple_200"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--edit text for food image link-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idTILFoodImageLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/LoginTextInputLayoutStyle"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Enter Food Image Link"
+            android:padding="5dp"
+            android:textColorHint="@color/white"
+            app:hintTextColor="@color/white">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idEdtFoodImageLink"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="textImeMultiLine|textMultiLine"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--edit text for food link-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idTILFoodLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/LoginTextInputLayoutStyle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter Food Link"
+            android:padding="5dp"
+            android:textColorHint="@color/white"
+            app:hintTextColor="@color/white">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idEdtFoodLink"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="textImeMultiLine|textMultiLine"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--edit text for food description-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idTILFoodDescription"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            style="@style/LoginTextInputLayoutStyle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter Food Description"
+            android:padding="5dp"
+            android:textColorHint="@color/white"
+            app:hintTextColor="@color/white">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idEdtFoodDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="textImeMultiLine|textMultiLine"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/idBtnAddFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_back"
+            android:text="Add Your Food"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/idPBLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/progress_back"
+        android:visibility="gone" />
+</RelativeLayout>
+</ScrollView>

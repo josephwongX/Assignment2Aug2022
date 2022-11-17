@@ -44,7 +44,7 @@ public class FourthFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent,View view,int position,long id){
                 if(position==0){
                     //profile
-                    startActivity(new Intent(getActivity(), Profile.class));
+                    startActivity(new Intent(getActivity(), MainProfile.class));
                 }else if(position==1){
                     //donor card
                     startActivity(new Intent(getActivity(), Profile.class));

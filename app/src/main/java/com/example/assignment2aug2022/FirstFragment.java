@@ -144,58 +144,8 @@ public class FirstFragment extends Fragment {
     }
 
     private void displayBottomSheet(EventRVModal modal) {
-        /*
-        // on below line we are creating our bottom sheet dialog.
-        final BottomSheetDialog bottomSheetTeachersDialog = new BottomSheetDialog(getActivity().getApplicationContext(), R.style.BottomSheetDialogTheme);
-        // on below line we are inflating our layout file for our bottom sheet.
-        View layout = LayoutInflater.from(getActivity().getApplicationContext()).inflate(R.layout.bottom_sheet_layout, homeCL);
-        // setting content view for bottom sheet on below line.
-        bottomSheetTeachersDialog.setContentView(layout);
-        // on below line we are setting a cancelable
-        bottomSheetTeachersDialog.setCancelable(false);
-        bottomSheetTeachersDialog.setCanceledOnTouchOutside(true);
-        // calling a method to display our bottom sheet.
-        bottomSheetTeachersDialog.show();
-        // on below line we are creating variables for
-        // our text view and image view inside bottom sheet
-        // and initialing them with their ids.
-        TextView eventTV = layout.findViewById(R.id.idTVFoodName);
-        TextView foodDescTV = layout.findViewById(R.id.idTVFoodDesc);
-        TextView priceTV = layout.findViewById(R.id.idTVFoodPrice);
-        ImageView foodIV = layout.findViewById(R.id.idIVFood);
-        // on below line we are setting data to different views on below line.
-        foodNameTV.setText(modal.getFoodName());
-        foodDescTV.setText(modal.getFoodDescription());
 
-        priceTV.setText("MYR " + modal.getFoodPrice());
-        Picasso.get().load(modal.getFoodImg()).into(foodIV);
-        Button viewBtn = layout.findViewById(R.id.idBtnViewDetails);
-        Button editBtn = layout.findViewById(R.id.idBtnEditFood);
 
-        // adding on click listener for our edit button.
-        editBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // on below line we are opening our EditFoodActivity on below line.
-                Intent i = new Intent(MainActivity.this, EditFoodActivity.class);
-                // on below line we are passing our food modal
-                i.putExtra("food", modal);
-                startActivity(i);
-            }
-        });
-
-        // adding click listener for our view button on below line.
-        viewBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // on below line we are navigating to browser
-                // for displaying food details from its url
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(modal.getFoodLink()));
-                startActivity(i);
-            }
-        });
-         */
     }
 
 }
